@@ -1,0 +1,60 @@
+﻿
+body {
+    background-color: rgb(68,68,68);
+    margin: 0;
+    padding: 0;
+}
+section#bg {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+section#bg header{
+    color: rgb(221,221,221);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 8vmin;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+img#touxiang {
+    position: absolute;
+    width: 20%;
+    border-radius: 50%;
+}
+
+#detail{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height:70%;
+
+}
+
+#detail tr{
+    background-color: rgb(34,34,34);
+
+}
+
+#detail tr td{
+    border-radius: 2%;
+}
+
+div#top,div#bottom{
+    height: 2px;
+    width: 100px;
+    background-color: snow;
+    position: absolute;
+}
+
+
+#log{
+    background-color: beige;
+    position: absolute;
+    z-index:100;
+}
+
